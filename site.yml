@@ -1,0 +1,10 @@
+#// vim: set ft=ansible:
+---
+- name: top level playbook
+  hosts: all
+
+- include: master_pre.yml
+- include: nodes_pre.yml
+- include: all.yml
+- include: master.yml
+- include: nodes.yml

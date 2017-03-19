@@ -1,0 +1,4 @@
+#// vim: set ft=ansible:
+---
+- name: prereq playbook for master node
+  hosts: master
